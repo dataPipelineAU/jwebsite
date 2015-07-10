@@ -1,0 +1,13 @@
+# Site settings
+title: dataPipeline.com.au
+email: contact@datapipeline.com.au
+description: > # this means to ignore newlines until "baseurl:"
+  Official website for dataPipeline.com.au
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.datapipeline.com.au" # the base hostname & protocol for your site
+twitter_username: robertlayton
+github_username:  robertlayton
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
