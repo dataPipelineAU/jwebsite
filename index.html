@@ -3,21 +3,83 @@ layout: default
 ---
 
 <div class="home">
+<div metal:fill-slot="jumbo">
+        <div class="jumbotron">
+                <h1 class=centered>
+                    Conceptualise,<br>
+                    Organise,<br>
+                    Visualise,<br>
+                    Analyse,<br>
+                    Optimise,<br>
+                    Realise.
+                </h1>
+                <p>
 
-  <h1 class="page-heading">Posts</h1>
+                    Create, track, integrate, and analyse data into your business, creating actionable and meaningful insights.
+                </p>
+                <p>
+                    Serving the Ballarat and surrounding areas, our goal is to bring high level analytics to all businesses.
+                </p>
+                <p><a class="btn btn-primary btn-lg" href="mailto:contact@datapipeline.com.au" role="button">Contact Us</a></p>
+            
+        </div>
+    </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <div metal:fill-slot="content">
+        <div class="container">
+        <div class="page-content">
+        <div class="row">
+            <div class="col-md-4">
+                <h2 style="text-align:center">
+                    <img style="text-align:center" src='{{ "/images/Cloud2.1.png" | prepend: site.static_url }}' width=250px><br>Text Mining</h2>
+                <p>
+                    There is a lot of information in the text that we create and keep in our businesses, but extracting useful information from it is difficult.
+                    We have expertise in extracting data from text; whether it comes from an online social network, survey responses, a collection of books in the office, or transcripts of meetings with clients.
+                    Our techniques can perform exploratory analysis, such as looking for general themes or trends, or to answer specific questions you may have about the data.
+                </p>
+                <!--<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+            <div class="col-md-4">
+                <h2 style="text-align:center">
+                    <br><img style="text-align:center" src='{{ "/images/cloud.png" | prepend: site.static_url }}' width=250px><br><br>Real Time Reporting</h2>
+                <p>
+                    Get real-time, on-demand reporting, either through our web portal, or self-hosted on your systems.
+                    You can also get alerted when things don't look right, or when things are going really well!
+                    Combined with regular summary reporting, you can get a full picture of your business at any point of time.
+                </p>
+                <!--<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+            <div class="col-md-4">
+                <h2 style="text-align:center">
+                    <img style="text-align:center" src='{{ "/images/integrate.png" | prepend: site.static_url }}'><br>Data Integration</h2>
+                <p>
+                    Often, the data you need for your organisation comes from external sources.
+                    We have extensive experience in finding, shaping, analysing and automating the collection of data from a variety of resources, both online and offline.
+                    We can also help with collecting data from customer surveys, website logs and other sources.
+                </p>
+                <!--<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    
+    <div class="container">
+    <h1 class="page-heading">Posts</h1>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </li>
+      {% endfor %}
+    </ul>
+   </div>
   
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  
 
 </div>

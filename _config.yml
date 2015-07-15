@@ -1,6 +1,7 @@
 # Site settings
 title: dataPipeline.com.au
 email: contact@datapipeline.com.au
+phone: +61430013554
 description: > # this means to ignore newlines until "baseurl:"
   dataPipeline is a wholly Australian owned company, operating in the Ballarat region.
 baseurl: "" # the subpath of your site, e.g. /blog/
