@@ -5,7 +5,8 @@ phone: +61430013554
 description: > # this means to ignore newlines until "baseurl:"
   dataPipeline is a wholly Australian owned company, operating in the Ballarat region.
 baseurl: "" # the subpath of your site, e.g. /blog/
-static_url: http://static.datapipeline.com.au
+#static_url: http://static.datapipeline.com.au
+static_url: ""
 url: "http://www.datapipeline.com.au" # the base hostname & protocol for your site
 twitter_username: robertlayton
 github_username:  robertlayton

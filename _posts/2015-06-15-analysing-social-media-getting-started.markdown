@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  "Analysing social media Getting Started"
+title_view:  "Analysing social media:<br>Getting Started"
+title:  "Analysing social media: Getting Started"
 date:   2015-06-15 16:49:29
 categories: dataPipeline information
 image_attribution: https://www.flickr.com/photos/83641890@N00/6109819439
 image: social.jpg
+api_endpoint: sentiment
 ---
 
 Social media has taken the world by storm, and businesses are often eager to integrate it into their business. Analysing how a business is viewed on social media is an important task, and one that can be quite difficult to keep up with. Social media analysis involves searching for mentions of your business or sector, analysing the messages, and even resolving complaints online. For many businesses, this has been thrust upon them - even if they didn't want a social media presence, they do need to be aware of what people are saying about them. [Even small businesses can use data in big ways,]({% post_url 2015-06-01-small-business-using-data-analytics %}) and social media analysis is a great way to get started.
@@ -23,6 +25,9 @@ We can also take it a step further, to see if these mentions are talking positiv
 
 Determining whether a mention is positive or negative is called sentiment analysis. To do this, we look at the words in the text, and see which ones denote positive or negative emotions. The distribution of these words helps to determine if the overall text is positive or negative. This is a relatively new area of data mining, but one that is being increasingly used in analyses of this type.
 Automated Sentiment Analysis tool
+
+<div id="api_form" class="highlight_api">
+</div>
 
 Enter some text above to see if it is positive or negative.
 

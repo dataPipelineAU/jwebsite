@@ -53,10 +53,26 @@ $on-laptop:        800px;
 
 
 .jumbotron {
+    background-position: center;
     text-align: center;
+    min-height: 450px;
 }
 
 
 h1.centered {
     text-align: center;
+}
+
+h1.post-title{
+  text-shadow:
+  -1px -1px 0 #FFF,
+  1px -1px 0 #FFF,
+  -1px 1px 0 #FFF,
+  1px 1px 0 #FFF;
+}
+
+div.highlight_api{
+  background-color: #c1e2b3;
+  width: 100%;
+  padding: 1em;
 }

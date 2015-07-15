@@ -3,9 +3,9 @@ layout: default
 ---
 <div class="post">
 
-  <div id="header_background" class="jumbotron" style="width:100%">
+  <div id="header_background" class="jumbotron" style="width:100%;background-image:url(/images/{{ page.image }});">
     <header class="post-header">
-      <h1 class="post-title">{{ page.title }}</h1>
+      <h1 class="post-title">{{ page.title_view }}</h1>
       <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     </header>
   </div>
@@ -20,6 +20,10 @@ layout: default
 
 
 <script>
-$("#header_background").css("background-image", "url(/images/{{ page.image }})");  
+//$("#header_background").css("background-image", "url(/images/{{ page.image }})");
+
+$(document).ready(function(){
+    run_api_form("{{ page.api_endpoint }}");
+});
 
 </script>
