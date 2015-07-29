@@ -1,7 +1,7 @@
 
 var api_url = "http://localhost:6543/api/";
 var current_endpoint = null;
-
+var current_results = null;
 
 function run_api_form(api_endpoint){
     current_endpoint = api_endpoint;
@@ -75,6 +75,7 @@ function create_api_form_submit_event_handler(){
                 success: function(result) {
                     console.log("Result");
                     console.log(result);
+                    current_results = result;
                     $('#api_results').html("<p class=" + result['divclass'] + ">" + result['result_message'] + "</p>");
                 },
                 error: function(result) {
