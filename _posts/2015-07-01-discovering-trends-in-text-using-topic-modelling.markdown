@@ -1,5 +1,6 @@
 ---
 layout: post
+title_view:  "Discovering trends in text using topic modelling"
 title:  "Discovering trends in text using topic modelling"
 date:   2015-07-01 16:49:29
 categories: dataPipeline information

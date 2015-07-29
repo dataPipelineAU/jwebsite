@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Small Business Using Data Analytics in a Big Way"
+title_view:  "Small Business Using Data Analytics in a Big Way"
 date:   2015-06-01 16:49:29
 categories: dataPipeline information
 image_attribution:  https://commons.wikimedia.org/wiki/Mountains#/media/File:Marmolata.JPG
