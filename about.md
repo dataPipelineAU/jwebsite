@@ -4,8 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+dataPipeline is a company built on the vision to bring data analytics to small and medium businesses.
+As part of that vision, we aim to help businesses with the whole "pipeline" of data-related activities, including:
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+* Collecting data from real world sources, both internally and externally to your business;
+* Storing that data securely and robustly, ensuring that data is kept secret and available;
+* Analysing the data to gain actionable insights, allowing your business to benefit from it;
+* Reporting and actioning on that data, realising the end-game of your data analytics pipeline.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+dataPipeline is a proudly Australian business, operating from the Ballarat region in Victoria.
+Incorporated in 2014, the company is only new, but we are helping clients, building products, and making impact.
