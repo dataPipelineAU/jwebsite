@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="home">
+<div metal:fill-slot="jumbo">
+        <div class="jumbotron">
+                <h1 class=centered>
+                    An error has occured!
+                </h1>
+                <p>
+
+                    There seems to have been an error with your request. We have logged the issue.
+                </p>
+                <p>
+                    In the meantime, you can <a href="/">go back to the home page</a>, but if the problem persists, please <a class="btn btn-primary btn-lg" href="mailto:contact@datapipeline.com.au" role="button">Contact Us</a>.
+                </p>
+            
+        </div>
+    </div>
+
+    
+    <div class="container">
+    <h1 class="page-heading">Posts</h1>
+
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </li>
+      {% endfor %}
+    </ul>
+   </div>
+  
+  
+
+</div>
