@@ -18,3 +18,19 @@ Each chapter has its own contained code sample, meaning that by the end of the b
 
 The book is [available on Amazon](http://www.amazon.com/Learning-Mining-Python-Robert-Layton-ebook/dp/B00YSILFRW/) and directly from the [publisher Packt](https://www.packtpub.com/big-data-and-business-intelligence/learning-data-mining-python).
 If you want to have a peek inside first, you can [read some of it at Google Books](https://books.google.com.au/books?id=dltICgAAQBAJ&pg=PP3&lpg=PP3&dq=packt+Learning-Mining-Python-Robert-Layton&source=bl&ots=MpTk5cFDBf&sig=Pw2MkuTDaW-UwmuuMyeVIKWetkE&hl=en&sa=X&ved=0CCYQ6AEwAmoVChMIsbuVxOWixwIVR9ymCh1GUwvM#v=onepage&q=packt%20Learning-Mining-Python-Robert-Layton&f=false).
+
+The chapter titles are:
+
+* Chapter 1: Getting Started with Data Mining
+* Chapter 2: Classifying with scikit-learn Estimators
+* Chapter 3: Predicting Sports Winners with Decision Trees
+* Chapter 4: Recommending Movies Using Affinity Analysis
+* Chapter 5: Extracting Features with Transformers
+* Chapter 6: Social Media Insight Using Naive Bayes
+* Chapter 7: Discovering Accounts to Following Using Graph Mining
+* Chapter 8: Beating CAPTCHAs with Neural Networks
+* Chapter 9: Authorship Attribution
+* Chapter 10: Clustering News Articles
+* Chapter 11: Classifying Objects in Images Using Deep Learning
+* Chapter 12: Working with Big Data
+* Appendix A: Next Steps...
