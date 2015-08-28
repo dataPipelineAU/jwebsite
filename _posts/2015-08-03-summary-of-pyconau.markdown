@@ -26,7 +26,7 @@ Their code was able to view images in the widely used DICOM format (common in th
 Greg Saunders spoke about random forests, a powerful data mining algorithm that requires little tuning to get good results in most datasets.
 He spoke about what they were, and how to use them.
 The explanation was a great summary of what can be a complex algorithm.
-The talk also contains a great explanation of how to do some data preprocessing and manging to get the data into a nice easy to use format.
+The talk also contains a great explanation of how to do some data preprocessing and managing to get the data into a nice easy to use format.
 
 ### Not Invented Here: Portng Scientific Software to Python
 Getting code from academia to work can be a pain, and all to often there is a mentality to just rewrite it yourself.
@@ -36,11 +36,11 @@ This talk was a great overview of the different techniques, and I'm going to be 
 ###An End-to-End Machine Learning Ecosystem in a Quarter
 Chris Hausler from Zendesk spoke about how they (almost) built an enterprise-grade system for machine learning from their vast amount of customer data in just a quarter (of a year).
 The talk had lots of insights about the trade-offs needed to build a system well, but also quickly.
-Their system already does a gret job in working out if customers will have a good service experience, and has great scope for improvement (many of which Chris and his team are working on already).
+Their system already does a great job in working out if customers will have a good service experience, and has great scope for improvement (many of which Chris and his team are working on already).
 
 ###Predicting sports winners using data analytics with pandas and scikit-learn
 This was my talk, in which I went through the material in chapter 3 of my new book (!) on how to predict the winner of an NBA match with Python's pandas and scikit-learn libraries.
-The talk was well received, and I got lots of postive feedback.
+The talk was well received, and I got lots of positive feedback.
 After the talk, I received some help from Sean Malloy which allowed me to integrate betting odds into the computation.
 My system doesn't make a profit (yet), but the loss is only small, especially compared to lesser systems.
 
@@ -83,4 +83,4 @@ I'll be using the lessons learnt here quite regularly in upcoming projects.
 ###Easy wins with Cython: fast and multi-core
 While Python has a reputation of being a slow language to run, this usually isn't true, and Caleb Hattingh outlined how to use Cython to speed it up anyway.
 Very little work needed to be done to get Cython working on some code, and the speed-up gains were over 8000% (I'm not joking!).
-For code that has lots of computation to do, this may be one of the better options, instead of going to another langauge.
+For code that has lots of computation to do, this may be one of the better options, instead of going to another language.
