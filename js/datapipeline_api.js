@@ -1,5 +1,6 @@
 
-var api_url = "http://localhost:6543/api/";
+//var api_url = "http://localhost:6543/api/";
+var api_url = "http://api.datapipeline.com.au:5000/";
 var current_endpoint = null;
 var current_results = null;
 
