@@ -18,7 +18,7 @@ After we had an initial consultation talking about the requirements, some possib
 
 * Weather - the cafe generally operates better in warmer weather, both generally per-season and specifically based on factors like rain.
 * Day of the week - Some days are generally better than others, although this trend is not always reliable.
-* Major events in region - the cafe is busiest when there is a local event. However non-local events can cause a reduction in the number of customers.
+* Major events in region - the cafe isRE busiest when there is a local event. However non-local events can cause a reduction in the number of customers.
 * Unknown causes - sometimes, large groups suddenly come in. These are difficult to manage properly and hard to predict.
 * School holidays and long weekends - different public and school holidays affected the cafe demand differently.
 
