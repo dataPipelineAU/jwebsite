@@ -15,11 +15,34 @@ layout: default
     
     <a href="{{ page.image_attribution }}">Image attribution</a>
   </article>
-  </div>
-    {% include book.html %}
+  <div class="row">
+            <div class="col-md-6">
+			 <h1 class="page-heading">Posts</h1>
+
+             <ul class="post-list">
+				{% for post in site.posts %}
+			<li>
+			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+			<h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</h2>
+			</li>
+				{% endfor %}
+			</ul>
+                <!--<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+            
+            </div>
+            <div class="col-md-6">
+                {% include book.html %}
+            </div>
+    
 
 </div>
 
+                <!--<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>-->
+           
+  
 
 <script>
 //$("#header_background").css("background-image", "url(/images/{{ page.image }})");
