@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Cloud Backup Solutions for Small Business
 permalink: /backup/
 ---
 

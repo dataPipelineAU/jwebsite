@@ -56,7 +56,20 @@ $on-laptop:        800px;
     background-position: center;
     text-align: center;
     min-height: 450px;
+    
+	position: relative;
+	overflow: hidden;
 }
+
+div.jumbotron .content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+    
+    
+
 
 
 h1.centered {
