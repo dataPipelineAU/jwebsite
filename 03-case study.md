@@ -1,7 +1,8 @@
 ---
 layout: page
+page-title: Case Study on Cafe Demand Prediction
 title: Case Study
-permalink: /Case study/
+permalink: /casestudy/
 ---
 
 Based in Ballarat, a small cafe is looking to have a bit more control over their operations.

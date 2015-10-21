@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blogs
+title: Blog
 page-title: Information on data analytics for businesses
 ---
 
