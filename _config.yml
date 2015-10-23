@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 static_url: ""
 url: "http://www.datapipeline.com.au" # the base hostname & protocol for your site
 twitter_username: robertlayton
-github_username:  robertlayton
+github_username:  dataPipelineAU
 
 # Build settings
 markdown: kramdown

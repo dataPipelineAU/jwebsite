@@ -5,7 +5,7 @@ title:  "Start-up Analytics: First Steps"
 date:   2015-10-23 14:49:29
 categories: startup analytics first steps
 image_attribution: https://www.flickr.com/photos/lizjones/2271274160/in/photolist-4sGSFj-3VDtfo-7Lq7yf-bXrhty-ftNFWA-9U7A2Q-dYwV2P-ef5yVa-ecqgxU-ahpuxe-ecQWvL-aw4Q8i-qjvYwh-3FKaz8-dnyraS-nvcK88-a7Rn2f-ajsKoa-9xAiwy-efkYFi-seGp4i-dTSpXA-6EGrqS-ee9fbx-8p25XN-bycfVo-sPerSA-efbVza-cXP6um-8dAgVC-efq5zS-57zSfN-8oWMH6-5uRLe3-7e3NL2-3EUcRb-gT1iPe-e1u8Ag-dHhWPL-cXP2to-mUVobQ-byjx9x-ebh3mq-5vdB1S-qfv3hw-NqVz5-9sKFbe-7L27Tj-nU88Sk-dvrTSL
-image: steps.jpg
+image: 1280px-Hotel_Keihan_Universal_Tower_atrium_lobby_20120324-001.jpg
 ---
 
 You have a great idea for a new small business or start-up, and you are gathering quite a bit of interest from the people around you.
