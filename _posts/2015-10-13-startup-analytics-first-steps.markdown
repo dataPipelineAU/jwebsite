@@ -17,7 +17,7 @@ However, there is some common ground which will apply to most businesses.
 Customer Acquisition
 ==
 
-The first major set of metrics relates to customer acquistions.
+The first major set of metrics relates to customer acquisitions.
 You'll probably have the following questions:
 
 1. Where do my customers come from?
