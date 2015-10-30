@@ -1,7 +1,19 @@
 ---
 layout: page
+page-title: Data Analysis
 permalink: /analysis/
 ---
+
+<hr>
+
+<div class="centered">
+<img src="/images/circles.png" width="400px" style="padding-bottom: 1em">
+</div>
+
+<hr>
+
+<br>
+
 
 Your business runs on data-driven decisions, whether that is through analytics or your own insights.
 These decisions impact every decision you make; where and how to advertise, the pricing points you set, the staff you hire, and many hundreds of decisions.

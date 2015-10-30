@@ -1,7 +1,17 @@
 ---
 layout: page
+page-title: Data Collection
 permalink: /collection/
 ---
+<hr>
+
+<div class="centered">
+<img src="/images/integrate.png" style="padding-bottom: 1em">
+</div>
+
+<hr>
+
+<br>
 
 Collecting data can be a big distraction from running your business, but can pay off in the long term due to improved data-driven decisions.
 Data can come from a number of sources, such as:
