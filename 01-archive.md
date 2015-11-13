@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blog
+permalink: /Blog/
 page-title: Information on data analytics for businesses
 ---
 
