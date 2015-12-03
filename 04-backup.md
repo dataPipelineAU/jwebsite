@@ -29,7 +29,20 @@ If your requirements are more complex, we can provide a plan-of-action for imple
 
 Call or email us to talk about your requirements, and we can work with you on an appropriate solution.
 
-
 **Mobile**: 0430013554
 <br>
 **Email**: contact@datapipeline.com.au
+
+
+
+Alternatively you can fill out the form below with the information about your backup needs, and we will be in contact shortly! 
+<br> 
+<br>
+<em>To find out what specifications we require click <a href="https://datapipeline.com.au/Specs/">here</a></em>
+
+
+<script type="text/javascript" src="https://app.simplycast.com/?q=forms/getForm&i=115179&type=portable"></script>
+
+<br> 
+<br>
+
