@@ -1,0 +1,51 @@
+---
+layout: post
+title_view:  "A/B tests"
+title:  "A/B tests"
+date:   2015-12-07 10:50:29
+categories: case_study case study cafe
+image: 2492945625_e7f1c078b3_z.jpg 
+---
+
+<h2> A/B testing is to coarse </h2>
+
+A/B tests  are used by a large number of organisations to help them choose which website design to use, which sales script to use, or many other things. However, they are often used in place of getting to know your customers, which can deliver much more powerful results.
+
+People run A/B tests to compare the effectiveness of two different websites, processes, or approaches to a task. As an example, if you run a sales funnel website, you might think of two approaches, and then run an A/B test to work out which one is more effective. 
+
+An actual A/B test is then performed, where visitors to the website are  randomly shown either of the two options - that is, they are shown webpage "A", or webpage "B". You then measure the conversion rate between the two options, to see which performs better.
+
+To determine if method "A" is actually better than "B", we then statistically evaluate the results to obtain a probability that the result is accurate (well technically, that the result isn't accurate, but that is a discussion for another day). <a href="http://www.alfredo.motta.name/ab-testing-from-scratch/">Click here</a> for a good article explaining the reasoning behind the complexity of A/B testing.
+
+A/B tests are a great way to start making data-driven decisions. However, they have quite a few issues, which are important to outline before you run experiments:
+
+<h2>Continue until the end</h2>
+You *must* decide on the number of visitors you will run the experiment for ahead of time, and not stop the experiment until that number is reached.
+
+"Peeking" at the results mid-way through the experiment will ruin any statistical significance your test has. This is especially true if you decide to "stop" the experiment because statistical significance has been achieved. The reason for this is that, even if the statistical calculations give you a significant answer, stopping an experiment mid-way through drastically undermines a key assumption behind the statistics.
+
+<a href="http://www.evanmiller.org/how-not-to-run-an-ab-test.html">This website</a> goes into great detail about these issues, why they occur from a technical level, and gives some examples. I highly recommend those interested in the "why" behind the "don't peek" rule to read that page. Another source for more information is <a href="http://data.heapanalytics.com/dont-stop-your-ab-tests-part-way-through/">this website</a> or <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2014484/">this academic article</a> if you really want the technical knowledge.
+
+In summary, if you peek at the results, you are breaking a fundamental assumption behind performing an A/B test, especially if you decide to stop the experiment because "significance has been reached".
+
+<h2>p-values don't work</h2>
+There are two major reasons why you shouldn't be using p-values from a t-test anyway, which is what most A/B test packages will give you.
+First, "Significance", in the statistical sense, does not mean "Significance" from a business sense. If you want to work out which version of your website you should go for, an A/B test *may* tell you that one is better, with a significance of less than 0.05. This is the "magic" value that most people use. However, it means that one in twenty experiments will have the wrong result, and it only tells you there is a difference that is unlikely to be the result of randomness (chance) in your data. This "0.05" value is just an arbitrary value people use, which has the benefit of regularly finding "significant" results while seeming like a tough threshold to reach. Further, it doesn't work when you <a href="http://www.xkcd.com/882/">run multiple tests at the same time</a>. Finally, significance in a statistical sense is just the idea that the two are different, not that the difference has a real impact.
+
+Second, most p-values are computed based on a t-test, which has a number of assumptions behind it that are usually ignored, but quite important to ensure that the result actually matches the expectation behind running the test.
+
+Instead, we recommend that you use <a href="http://www.sumsar.net/best_online/">Bayesian statistics</a>, which has been shown to produce accurate results, without the assumptions that go into a t-test. This doesn't magically solve all of the issues, but it does provide a more robust framework.
+
+<h2>A/B testing is very coarse</h2>
+An A/B test really only checks that a particular version of your website (or process, etc) works against everyone that visits your site. A/B testing by itself is a tool to use, but should be used in the appropriate way. You use A/B testing to decide between a small number of options (usually two, but this isn't a requirement).
+
+What is more important, though, is learning who your customers are. Learn their problems, requirements, and environments, and use that information to deliver more targeted information, rather than choosing the results of an A/B test.
+
+Customer segmentation is one method to help businesses do this. It starts with breaking your customer group into sub-groups (also called segments, clusters, partitions, or many other terms). Then you target each of these sub-groups with a more specific website/design/sales copy/etc based on their specific needs.
+
+<h2>You can still do A/B tests!</h2>
+
+We actually do run A/B tests ourselves and I do encourage you to do to the same, except as an exploratory tool and not a decision-making tool. First, we think about problems that clients may face, then talk with them about potential solutions. From there, we develop a product or solution and run an A/B-style test if we can't work out which solution will be delivering better value. However, this test is only one piece of the puzzle and is used as *evidence* to make the decision, not to make the decision itself.
+
+We are really interested in hearing stories about any difficulties you have faced with A/B tests. Send an email to <a href="mailto:contact+abtest@datapipeline.com.au">contact+abtest@datapipeline.com.au</a> 
+and let us know the greatest challenge you face in using statistical tests in your organisation.
