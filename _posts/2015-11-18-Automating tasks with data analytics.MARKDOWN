@@ -2,7 +2,7 @@
 layout: post
 title_view:  "Automating tasks with data analytics"
 title:  "Automating tasks with data analytics"
-date:   2015-11-18 1:30:29
+date:   2015-12-22 14:16:29
 categories: Automating tasks with data analytics
 image_attribution: https://www.flickr.com/photos/druscoe/8031488298/in/photolist-deHtEb-8ynSYC-993XFX-bpKJpm-A9zTxh-7NAoAo-bi9aBX-bu9Vhh-9W7NZM-539bHw-8z6Ubh-xXqazj-KcYUf-ef4Y8a-u2gSDi-bH4HmZ-JHWyW-rzjsLe-9rtMdE-ckjzoh-o42ftG-uccBjF-ucczui-4giPjJ-6fSTNv-ojkn2k-o8Hnov-v2zrvs-yUsuge-egDiAx-s8tfNE-dbWPSp-tY3qWh-uaRgfP-ghK9jZ-8TNddA-a1oGU8-7K5nph-zjh1br-6q5LuX-ufCADV-69LKFA-69LKCb-8Jd6Ds-bH4GsP-7KcAPB-tTfxi9-ghKyUi-9UfWtr-nj6axs
 image: 8031488298_d780f93a8a_z.jpg 
