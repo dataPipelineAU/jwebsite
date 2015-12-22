@@ -116,4 +116,42 @@ div.advertisement{
 
 }
 
+.row{
+	top: 50;
+	left: 30;
+}
+
+
+.trigger{
+cursor:pointer;
+background: #FFFFFF;
+border:0px solid #FFFFFF;
+color:#000000;
+font-size:12pt;
+padding:2px 5px;
+box-shadow: none;
+}
+
+
+.trigger:active{
+cursor:pointer;
+color:#000000;
+outline: none;
+background: #FFFFFF;
+border:0px solid #FFFFFF;
+font-size:12pt;
+padding:2px 5px;
+box-shadow: none;
+}
+
+.trigger:hover{
+cursor:pointer;
+background: #FFFFFF;
+border:0px solid #FFFFFF;
+color2:#000000;
+font-size:12pt;
+padding:2px 5px;
+box-shadow: none;
+}
+
 
