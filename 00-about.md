@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+page-title: About our company
 permalink: /about/
 ---
 

@@ -5,7 +5,7 @@ title:  "Learning Data Mining with Python"
 date:   2015-08-12 16:49:29
 categories: python data mining analytics
 image_attribution: https://www.flickr.com/photos/andiryan/8558548035/in/photolist-e3hNa2-nmHCy1-mivR9g-oLztbu-p2RasG-9a2ACh-am8UBn-cTUd6G-frJgMs-oPixPN-9aAr9w-oAcoac-dfjhvH-dbzJEt-kQYQy4-aJZaN2-paHFVr-99Dupu-8oKDtp-omE7RK-frkT3P-oYFDFk-cGbQjC-frAqXN-dWB9vv-985W2V-ec3er6-ohUH3R-nwYDoW-7BtXTi-9aBDDA-frtRzp-nGL6Tm-wCYpjt-e6dDqM-ftztCb-frBVkS-ncTreF-pqfTtb-985WqD-99YHYt-dThbAR-hc4oqr-dSKfXw-wCiuxg-frAso5-p6Mh7N-oCdgKY-daPhAq-duacAP
-image: brisbane.jpg
+image: 2246383366bd18fb6259_z.jpg
 ---
 
 Recently, I've had my new book, Learning Data Mining with Python published.

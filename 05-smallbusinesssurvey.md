@@ -24,5 +24,6 @@ Thanks for assisting us with developing better resources and products for small 
 
 
 
-
+<div class="centered2">
 <script type="text/javascript" src="https://app.simplycast.com/?q=forms/getForm&i=115123&type=portable"></script>
+</div>
