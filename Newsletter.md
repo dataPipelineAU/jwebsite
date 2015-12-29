@@ -15,7 +15,12 @@ permalink: /Newsletter/
 <br>
 
 
-
-Sign up to our newsletter to receive information every month about practical ways you can use data analytics to improve your business. We focus on application, not theory, and our newsletters will be full of information that is relevant and useful to you. Further, we take requests, so if there is anything you want us to chase up for you, please do send us an email at <a href="mailto:contact@datapipeline.com.au">contact@datapipeline.com.au</a>
-
+<div class="centered">
+Sign up to our newsletter to receive information every month about practical ways you can use data analytics to improve your business. We focus on application, not theory, and our newsletters will be full of information that is relevant and useful to you. 
+Further, we take requests, so if there is anything you want us to chase up for you, please do send us an email at <a href="mailto:contact@datapipeline.com.au">contact@datapipeline.com.au</a>
+</div>
+<br>
+<br>
+<div class="centered2">
 <script type="text/javascript" src="https://app.simplycast.com/?q=forms/getForm&i=114592&type=portable"></script>
+</div>

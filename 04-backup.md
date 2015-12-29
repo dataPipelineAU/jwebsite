@@ -39,10 +39,11 @@ Alternatively you can fill out the form below with the information about your ba
 <br> 
 <br>
 <em>To find out what specifications we require click <a href="/Specs/">here</a></em>
-
-
+<br>
+<br>
+<div class="centered2">
 <script type="text/javascript" src="https://app.simplycast.com/?q=forms/getForm&i=115179&type=portable"></script>
-
+</div>
 <br> 
 <br>
 
