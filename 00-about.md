@@ -68,14 +68,14 @@ He also performs training to various organisations in both programming and data 
 
 
 </div>
-  Matthew Deal is the technology innovational officer of dataPipeline, Providing website desgin, maintance, tech support and research work for the business.
-  He is currently working towards a Diploma in networking through computer power institute. Whilst learning html and python programming. 
-  <br>
-  <br>
-  He has helped design serval sites including <a class="colour" href="www.learningtensorflow.com">learningtensorflow.com</a> and of course the the company site datapipeline.com.au.
-  
-  
+Matthew Deal is the Technology Innovation Officer at dataPipeline.
+His role involves researching and testing new technologies, integrating those technologies into the existing workflows, and development of surveys and website material.
+With a background in tech support, including Windows and Linux administration, he is also in charge of sysops.
+He is currently working towards a Diploma in Networking and a CCNA.
 
+Matt has worked on a number of different websites, including <a class="colour" href="http://www.learningtensorflow.com">learningtensorflow.com</a>, the dataPipeline website, and many others.
+Finally, Matt provides tech support to clients in need, not only with dataPipeline's solutions, but also other computer systems they have, including Windows, Apple and Linux based computers, smartphones and tablets.
+Matt was a beta tester of the new Windows 10 platform, and constantly looks for new and improving technologies.
 
 
   </div>
