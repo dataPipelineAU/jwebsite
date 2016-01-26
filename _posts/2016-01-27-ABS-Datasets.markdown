@@ -1,12 +1,12 @@
 ---
 layout: post
-title_view:  "Using external datasets"
-title:  "Using external datasets"
+title_view:  "Insight from external data"
+title:  "Insight from external data"
 date:   2016-01-27 16:50:29
 categories: datasets
 image: 4333178624_f91f847edc_z.jpg
 ---
-<Title> Using external datasets </title>
+<Title> Insight from external data </title>
 
 Data analysis insight doesn't just come from using data your organisation has created.
 While much of our knowledge looks internally, there are substantial gains to be had in our understanding of the world, and your business sector, but looking outward.
