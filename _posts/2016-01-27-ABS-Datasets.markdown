@@ -4,7 +4,7 @@ title_view:  "Insight from external data"
 title:  "Insight from external data"
 date:   2016-01-27 16:50:29
 categories: datasets
-image: 4333178624_f91f847edc_z.jpg
+image: 11569419884_b6bdb4f190_z.jpg
 ---
 <Title> Insight from external data </title>
 

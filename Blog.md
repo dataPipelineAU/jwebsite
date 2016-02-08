@@ -8,7 +8,7 @@ permalink: /Blogs/
 <div class="row text-center">
   
         {% for post in site.posts %}
-        <div class="blog-summary col-sm-4 col-md-4">
+        <div class="blog-summary col-sm-2 col-md-6">
 
           <div class="panel panel-default">
            <h2>
@@ -16,7 +16,7 @@ permalink: /Blogs/
                               </h2>
                               <span class="post-meta">{{ post.d | date: "%b %-d, %Y" }}</span>
                               <div class="centered2" onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
-                                <div id="header_background" class="jumbotron" style=" background-repeat:no-repeat; width:70%;background-image:url(/images/{{ post`.image }});">
+                                <div id="header_background" class="jumbotron" style=" background-repeat:no-repeat; width:100%;background-image:url(/images/{{ post`.image }});">
                                 </div>
                                 </div>
 
