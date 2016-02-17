@@ -27,7 +27,7 @@ This is data mining in practice, where those patterns are then codified into a f
 The Australian Tax Office is building (and using) systems that model the behaviour of taxpayers, and using those models to look for abnormal behaviour.
 This includes how taxpayers interact.
 In the past, this would be seen as "too large" a problem, which is why the tax office has focused on different types of taxpayers (such as tradies) in different years, rather than everyone, every year.
-However, I see that very quickly (say, 5 years), organisations like the ATO would be able model significant portions of Australia's economy, leading to a situation where tax fraud is very difficult to hide.
+However, I see that very quickly (say, 5 years), organisations like the ATO would be able to model significant portions of Australia's economy, leading to a situation where tax fraud is very difficult to hide.
 
 <h3>Human-Algorithm Interaction</h3>
 
@@ -36,7 +36,7 @@ In one example, a couple were each obtaining a single's benefit, despite obvious
 In many cases, this sort of thing is done manually based on a tip-off.
 Someone calls in a suspected fraudster, and the welfare agency investigates.
 
-This type of investigation can benefit from automated analysis, even if it does only part of the work.
+This type of investigation can benefit from an automated analysis, even if it does only part of the work.
 For instance, rules can be setup to look for patterns such as "frequent postings with another person on single's payment" to look for this kind of fraud.
 Such systems are probably not yet advanced enough to automatically be judge and jury, although they are definitely smart enough to find "red flags" requiring further investigation.
 
