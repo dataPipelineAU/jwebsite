@@ -5,6 +5,7 @@ title:  "A/B tests"
 date:   2015-12-07 10:50:29
 categories: case_study case study cafe
 image: 2492945625_e7f1c078b3_z.jpg 
+image_attribution: https://www.flickr.com/photos/thebusybrain/2492945625/in/photolist-4NhZT8-4gQ3Cn-4xB223-Nvkjq-5QHWEH-nKW2Hr-b84r5V-niQyad-qzhu2h-4hhnpZ-niiNNv-bizhCg-qquJaQ-pDmyNg-7G4usj-r7Hydm-qpJQvm-zxrRH-oK1Bi3-v1Kt4f-sGTZTs-7dmykP-b34KuK-r5hXXr-rtb7c9-r8sTbA-nYVfuw-sDaxZA-rq1TBH-qzBrr1-jTuDv-78FsNK-hNwY-qCWD5q-oRZQo8-xBuYoZ-pMftir-dWNcuu-raSYwc-m4yBd-9SaNeU-6QtQUW-a1YTD4-iqzDh-5uFa25-odkXgH-ehLPAy-dLoBHX-q6VVUL-rkd2Ri
 ---
 
 <h2> A/B testing is to coarse </h2>

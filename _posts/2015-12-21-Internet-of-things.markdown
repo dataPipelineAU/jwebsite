@@ -5,6 +5,7 @@ title:  "Internet of things"
 date:   2015-12-21 16:50:29
 categories: Internet of things
 image: 4333178624_f91f847edc_z.jpg
+image_attribution: https://www.flickr.com/photos/twicepix/4333178624/in/photolist-7AUF3h-4onQgc-Auwh87-dtb2AR-qMN7uU-eyE9Br-4qETvU-5Lp3Li-7ARqoS-4D6r8-5cPSAD-378ap9-CFSUxU-26nYEp-9uqKG6-MmL2d-7ARqo3-efxY1S-4PGC7o-5Pjs9-5eU6uv-voErKW-4qCDMK-8AJbp-XF9b4-9cfUgo-iWUn-9jXTMA-5exmSa-6R5AuA-jY4EKn-373xwB-4d8cTo-4D6u8-h81Wc3-omzo6M-zASUDA-ceF8y-4D6ng-fvcxxG-fy3ZV5-efK6KF-9jXKVC-9jUNWp-tCZ8jP-sG4yMo-tADqgs-mhaqB-efQJcG-3vYTYR
 ---
 <Title> The Internet Of Things </title>
 

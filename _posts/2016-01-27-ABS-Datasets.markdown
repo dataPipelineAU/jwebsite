@@ -5,6 +5,7 @@ title:  "Insight from external data"
 date:   2016-01-27 16:50:29
 categories: datasets
 image: 11569419884_b6bdb4f190_z.jpg
+image_attribution: https://www.flickr.com/photos/basecampbaker/11569419884/in/photolist-iCmisC-7atAQ2-pqr1q3-qt42vv-ambP6n-4RVir8-sb7CAv-ameEWW-ambQJ2-ambRn6-ambNCa-ambPjH-ambTha-ameAGA-oRf4hY-mUPYaJ-mUPovu-ntD93R-9vsYzJ-69JUNw-6XCMps-6Cd2sQ-bziPrN-7xLCco-iCmZDZ-pYToyM-qbWuqP-psQehy-qdzRHA-nFDd3q-ebUs29-9m5BhQ-goGDXM-mWxSSD-69DQdx-69J5wG-69J3SA-69J33y-69DSPg-69HVAy-o7WQCT-mUPWuj-sJsPKS-7xLCsC-7xGUZ2-69JVwu-69DVpg-69DW86-69Dy2H-69J1tw
 ---
 <Title> Insight from external data </title>
 
