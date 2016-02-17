@@ -31,7 +31,7 @@ However, I see that very quickly (say, 5 years), organisations like the ATO woul
 
 <h3>Human-Algorithm Interaction</h3>
 
-Recent news articles have talked about the use of social media to find those defrauding welfare systems. #TODO: Find a news article on this
+Recent news articles have talked about the use of social media to find those defrauding welfare systems. <a href="http://www.smh.com.au/national/centrelink-investigators-nab-welfare-cheats-via-social-media-20160203-gmkv2b.html"> article<a/>
 In one example, a couple were each obtaining a single's benefit, despite obviously being in a long-term relationship (they lived together and just announced a pregnancy).
 In many cases, this sort of thing is done manually based on a tip-off.
 Someone calls in a suspected fraudster, and the welfare agency investigates.
