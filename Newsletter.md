@@ -21,6 +21,6 @@ Further, we take requests, so if there is anything you want us to chase up for y
 </div>
 <br>
 <br>
-<div class="centered2">
-<script type="text/javascript" src="https://app.simplycast.com/?q=forms/getForm&i=114592&type=portable"></script>
-</div>
+
+
+{% include newsletter.html %}

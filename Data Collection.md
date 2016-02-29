@@ -47,7 +47,7 @@ The course will cover the following topics:
 </ol>
 Just sign up below and we will send you the first day's course today.
 
-<script type="text/javascript" src="https://app.simplycast.com/?q=forms/getForm&i=114927&type=portable"></script>
+{% include datacollection.html %}
 
 <br>
 
