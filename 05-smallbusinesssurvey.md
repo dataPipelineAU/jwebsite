@@ -25,5 +25,4 @@ Thanks for assisting us with developing better resources and products for small 
 
 
 <div class="centered2">
-<script type="text/javascript" src="https://app.simplycast.com/?q=forms/getForm&i=115123&type=portable"></script>
-</div>
+<script>(function(e,t,s,n){var o,c,i;e.SMCX=e.SMCX||[],t.getElementById(n)||(o=t.getElementsByTagName(s),c=o[o.length-1],i=t.createElement(s),i.type="text/javascript",i.async=!0,i.id=n,i.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/_2BDV4WpHOZXFS01IhxGBvesmqVd_2BkTj8ivgK4SmvjIHThi8s4gwd0WFFCPkV7RvQR.js"].join(""),c.parentNode.insertBefore(i,c))})(window,document,"script","smcx-sdk");</script> </div>
