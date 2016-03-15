@@ -43,7 +43,15 @@ Robert was awarded Federation University Australia's Young Alumni of the year in
 
 <p>He is also a writer on data mining and cybercrime issues for a number of outlets, with a published book in data mining in Python.
 In addition, he is a regular contributor to various open source project and has presented at a number of international conferences, both academic and industry-based.
-He also performs training to various organisations in both programming and data analytics.</p></div>
+He also performs training to various organisations in both programming and data analytics.</p><br>
+
+Follow me here!
+<br>
+<a class="fa fa-2x fa-twitter logocolour" href="https://twitter.com/robertlayton"><span class="description"></span></a>
+<a class="fa fa-2x fa-github logocolour" href="https://github.com/robertlayton"><span class="description"></span></a>
+<a class="fa fa-2x fa-linkedin logocolour" href="https://www.linkedin.com/in/drrobertlayton"><span class="description"></span></a>
+</div>
+
 
   <div class="col-sm-6 ">
     <div class="bioheader">
@@ -76,6 +84,7 @@ He is currently working towards a Diploma in Networking and a CCNA.</p>
 <p>Matt has worked on a number of different websites, including <a class="colour" href="http://www.learningtensorflow.com">learningtensorflow.com</a>, the dataPipeline website, and many others.
 Finally, Matt provides tech support to clients in need, not only with dataPipeline's solutions, but also other computer systems they have, including Windows, Apple and Linux based computers, smartphones and tablets.
 Matt was a beta tester of the new Windows 10 platform, and constantly looks for new and improving technologies.</p>
+
 
 
   </div>

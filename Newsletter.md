@@ -7,7 +7,7 @@ permalink: /Newsletter/
 <hr>
 
 <div class="centered">
-<img src="/images/document-309065_1280.png" style="padding-bottom: 1em" width="250px"> 
+<img src="/images/document-309065_1280.png" style="padding-bottom: 1em" width="250px">
 </div>
 
 <hr>
@@ -21,6 +21,4 @@ Further, we take requests, so if there is anything you want us to chase up for y
 </div>
 <br>
 <br>
-
-
 {% include newsletter.html %}
