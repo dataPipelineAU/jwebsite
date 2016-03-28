@@ -16,7 +16,7 @@ permalink: /Blogs/
                               </h2>
                               <span class="post-meta">{{ post.d | date: "%b %-d, %Y" }}</span>
                               <div class="centered2" onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
-                                <div id="header_background" class="jumbotron" style=" background-repeat:no-repeat; width:100%;background-image:url(/images/{{ post`.image }});">
+                                <div id="header_background" class="jumbotron img-responsive" style=" background-repeat:no-repeat; width:100%;background-image:url(/images/{{ post`.image }});">
                                 </div>
                                 </div>
 
