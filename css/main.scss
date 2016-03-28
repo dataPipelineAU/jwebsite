@@ -55,9 +55,12 @@ $on-laptop:        800px;
 .jumbotron {
     background-position: center;
     text-align: center;
-    min-height: 450px;
-    
-	position: relative;
+
+    margin: 20px;
+
+
+
+  position: relative;
 	overflow: hidden;
 }
 
@@ -230,5 +233,13 @@ margin-left: 1cm;
 
 .blogtitle{
   min-height: 52px;
+}
+
+
+
+
+.header_background2{
+  display: block;
+  margin: 0 auto;
 }
 
