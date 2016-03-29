@@ -8,9 +8,9 @@ layout: default
 
 
 
-                {% for post in site.posts limit: 3 %}
+                {% for post in site.posts limit: 2 %}
 
-                <div class="blog-summary col-sm-4 col-md-4">
+                <div class="blog-summary col-sm-6 col-md-6">
 
                     <div class="panel panel-default">
                         <div class="blogtitle">
@@ -20,7 +20,9 @@ layout: default
                         </div>
                         <span class="post-meta">{{ post.d | date: "%b %-d, %Y" }}</span>
                         <div class="centered2" onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
-                            <div id="header_background" class="jumbotron" style=" background-repeat:no-repeat; width:70%;background-image:url(/images/{{ post`.image }});">
+                            <div class="thumbnail" style="width: 100%; ">
+                            <div id="header_background"  class=" img-responsive" style='background-repeat:no-repeat;    background-position: center; width:100%; min-height: 450px; background-image: url("/images/{{ post`.image }}");' >
+                            </div>
                             </div>
                         </div>
 
