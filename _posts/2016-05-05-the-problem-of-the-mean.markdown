@@ -1,6 +1,6 @@
 ---
 layout: post
-title_view:  "The problme of the mean"
+title_view:  "The problem of the mean"
 title:  "The problem of the mean"
 date:   2016-05-05 11:32:29
 categories: evaluation
@@ -18,10 +18,10 @@ This simple formula can be found in nearly every piece of software that takes da
 
 The first major issue is that it is just a single statistic.
 There has been a significant amount of work done on creating single statistics to represent complicated ideas.
-This includes the mean to describe some data, the accuracy to evaluate the results, or the p-value to compare experiments.
+This includes the mean to describe some data, <a href="http://www.datapipeline.com.au/evaluation/2016/03/24/evaluation-is-hard.html">the accuracy to evaluate the results</a>, or the p-value to compare experiments.
 Every time a complex result is evaluated by a single statistic, there is significant information that is lost in the process.
 
- <a href="http://www.datapipeline.com.au/evaluation/2016/03/24/evaluation-is-hard.html">the accuracy to evaluate the results</a>
+ 
 
 After World War 2, pilots of air force planes from the United States had trouble controlling their planes.
 Slight imbalances caused slight delays, causing catastrophic results in the loss of pilots.
