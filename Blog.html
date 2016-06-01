@@ -6,28 +6,29 @@ permalink: /Blogs/
 ---
 
 <div class="row text-center">
-  
-        {% for post in site.posts %}
-            <div class="blog-summary col-sm-6 col-md-6">
-              <div class="panel panel-default">
-                  <h2>
-                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                  </h2>
+
+    {% for post in site.posts %}
+    <div class="blog-summary col-sm-6 col-md-6">
+        <div class="panel panel-default">
+            <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
                   <span class="post-meta">
                     {{ post.d | date: "%b %-d, %Y" }}
                   </span>
-                                  <div class="centered2" onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
-                                         <div class="thumbnail" style="width: 100%; ">
+            <div class="centered2" onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
+                <div class="thumbnail" style="width: 100%; ">
 
 
-                                             <div id="header_background"  class="header_background2 img-responsive" style='background-repeat:no-repeat;    background-position: center; width:100%; min-height: 450px; background-image: url("/images/{{ post`.image }}");'>
-                                    </div>
-                                            
-                                                                  
+                    <div id="header_background"  class=" img-responsive" style='background-repeat:no-repeat;    background-position: center; width:100%; min-height: 450px; background-image: url("/images/{{ post`.image }}");' >
+                    </div>
+
+
+                </div>
+
             </div>
-    
-            </div>
-        {% endfor %}
-   
-</div>
+            {% endfor %}
+
+        </div>
+
 
