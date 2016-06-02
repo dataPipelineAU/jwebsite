@@ -5,10 +5,15 @@ page-title: Resources
 permalink: /resources/
 ---
 
-<ul style= "list-style-type:disc">
-<dl>
+<div class="container">
 
-<li><dt><a class ="linkcolour" href="http://data.gov.au/dataset/asic-companies-register"><b>ASIC - Company Register</b> </a></dt></li>
+
+
+
+<ul style= "list-style-type:none">
+<li><details>
+<summary>  Government </summary>
+<a class ="linkcolour" href="http://data.gov.au/dataset/asic-companies-register"><b>ASIC - Company Register</b> </a></li>
 <dd> If you are looking for a certain company's ACN, Status, Date of registration etc..  <br>This link can provide you with all of this and more.</dd>
 
 <li><dt><a class ="linkcolour" href="http://data.gov.au/dataset/corporate-transparency/resource/237d7ede-3a63-4b9b-9434-2f79b9d70ce8?view_id=be58448a-dbf9-41af-9e20-7e9ee2796633"><b>2013-14 Report of Entity Tax Information</b> </a></dt></li>
@@ -35,4 +40,28 @@ permalink: /resources/
 <dd> This link covers building approvals in Australia for upcoming events </dd>
 
 <li><dt><a class ="linkcolour" href="http://data.gov.au/dataset/ad-hoc-data-requests"><b>Ad-hoc requested data</b> </a></dt></li>
-<dd> Release of responses to ad-hoc data requests</dd>
+<dd> Release of responses to ad-hoc data requests</dd></details></dl></ul>
+</div>
+
+<br> <br>
+
+<div class="container2  pull-left">
+<li><details>
+<summary>  Entertaining  </summary>
+<ul style= "list-style-type:none">
+
+
+<a class ="linkcolour" href="http://sci-hub.cc"><b>Scientific paper trails</b> </a></li>
+<dd> the first pirate website in the world to provide mass and public access to tens of millions of research papers</dd>
+<summary> Links </summary>
+<a class ="linkcolour" href="https://swapi.co/"><b>long time ago, in an API far, far away.</b> </a></li>
+<dd> StarWars API is just for you starwars fans out there! Everyship every character, planet you name it from the 7 films,<br>
+ can be found on this site and all info about them in a json format.</dd>
+
+
+
+
+
+</li></details></ul>
+</div>
+
