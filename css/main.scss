@@ -108,11 +108,21 @@ div.advertisement{
   text-align: center;
 }
 
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  width: 70%;
-  margin: auto;
+
+
+.carousel{
+  width:600px;
+  height:500px;
+
 }
+
+.carousel-caption{
+  color: #000000;
+
+}
+
+
+
 
 
 .semi{
@@ -242,5 +252,21 @@ margin-left: 1cm;
 .header_background2{
   display: block;
   margin: 0 auto;
+}
+#mainContainer{
+  overflow:hidden;
+}
+
+#divA{ float:left;
+  width:40%;
+  height:500px;
+  padding-left: 50px;
+
+}
+
+#divB{
+  float:right;
+  width:55%;
+  height:500px;
 }
 

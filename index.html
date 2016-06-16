@@ -1,129 +1,168 @@
 ---
 layout: default
 ---
-<div metal:fill-slot="content">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
+
+
+<div id="mainContainer">
+    <div id="divA">
+
+
+        <div class="home">
+            <div metal:fill-slot="jumbo">
+                <!-- Carousel
+                ================================================== -->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img class="first-slide" src="images/integrate.png" alt="First slide">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <p>
+                                        Regardless of the question, you will need some data to answer it.
+                                        We can develop and run projects to help you collect the data you need, whether that is from surveys, websites, external sources, or internal data stores.
+                                    </p>
+
+                                    <a href="/collection/"><button class="btn btn-primary"> Data Collection.</button>   </a>
 
 
 
-                {% for post in site.posts limit: 2 %}
-
-                <div class="blog-summary col-sm-6 col-md-6">
-
-                    <div class="panel panel-default">
-                        <div class="blogtitle">
-                        <h2>
-                            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                        </h2>
-                        </div>
-                        <span class="post-meta">{{ post.d | date: "%b %-d, %Y" }}</span>
-                        <div class="centered2" onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
-                            <div class="thumbnail" style="width: 100%; ">
-                            <div id="header_background"  class=" img-responsive" style='background-repeat:no-repeat;    background-position: center; width:100%; min-height: 450px; background-image: url("/images/{{ post`.image }}");' >
+                                    </p>
+                                </div>
                             </div>
+                        </div>
+                        <div class="item">
+                            <img class="second-slide" src="images/flowchart.png" alt="Second slide">
+                            <div class="container">
+                                <div class="carousel-caption">
+
+
+                                    <p>
+                                        Your program needs data, but the format isn't correct.
+                                        We can work with your existing software to integrate new data feeds and clean up messy data.
+                                        We can work with binary data, custom formats, mapping data, and big data.
+                                        <br><br>
+                                        <a href="/integration/"><button class="btn btn-primary">Data integration</button>
+                                        </a>
+
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="third-slide" src="images/circles.png" alt="Third slide">
+                            <div class="container">
+                                <div class="carousel-caption">
+
+                                    <p>Gain insight from your data, by using best-practice and leading techniques on your company's data.
+                                        Our analysis is driven by your domain knowledge and business questions, meaning the results will lead to action.</p>
+                                    <br>
+                                    <a href="/analysis/"><button class="btn btn-primary">Data analysis</button></a>
+                                    <br><br>
+
+
+                                </div>
                             </div>
                         </div>
 
-                    </div>
+
+
+
+
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div><!-- /.carousel -->
+
 
                 </div>
-                {% endfor %}
+
+
+
+
+            </div>
+</div></div>
+    <div id="divB">
+
+        <div metal:fill-slot="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+
+
+
+                        {% for post in site.posts limit: 1 %}
+
+                        <div class="blog-summary col-md-6 col-md-6">
+
+                            <div class="panel panel-default">
+                                <div class="blogtitle">
+                                    <h2>
+                                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                                    </h2>
+                                </div>
+                                <span class="post-meta">{{ post.d | date: "%b %-d, %Y" }}</span>
+                                <div class="centered2" onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
+                                    <div class="thumbnail" style="width: 100%; ">
+                                        <div id="header_background"  class=" img-responsive" style='background-repeat:no-repeat;    background-position: center; width:100%; min-height: 450px; background-image: url("/images/{{ post`.image }}");' >
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        {% endfor %}
+
+                    </div>
+                </div>
 
             </div>
         </div>
+
+
+
+        <body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+
+        <div class="container">
+            <div class="row">
+                <nav class="col-sm-3" id="myScrollspy">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a href="#section1">Section 1</a></li>
+                        ...
+                    </ul>
+                </nav>
+                <div class="col-sm-9">
+                    <div id="section1">
+                        <h1>Section 1</h1>
+                        <p>Try to scroll this page and look at the navigation list while scrolling!</p>
+                    </div>
+                    ...
+                </div>
+            </div>
+        </div>
+
+        </body>
+
+
 
     </div>
-</div>
 
-<div class="home">
-<div metal:fill-slot="jumbo">
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Business questions you need answered</h1>
-                        <p>What are the questions you want answered about your business?
-                            Whether you have a formally produced plan, or the start of an idea, direction is key.
-                            Combining your expertise of the domain area, and our expertise of the available techniques, we can create a data analytics project to get the answers.
-                        </p>
-                        <p>Call us to start
-                            <a href="/contactus/"><button class="btn btn-primary">asking questions.</button>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Collecting data to achieve an outcome</h1>
-                        <p> Collecting data is not easy.
-                            It may involve looking at your business records, collecting survey data, or building sensors.
-                            We can assist with building those tools, recording the data, and running your data collection project.
-                        </p>
-                        <p>Learn more about <a href="/contactus/"><button class="btn btn-primary">collecting data</button>
-                        </a> to answer your questions.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Gain insight from data</h1>
-                        <p>Once you have collected your data, the next step is to analyse it to gain insight from data.
-                            We are technique experts, and can assist in bringing out the information within the data.
-                            By merging with your domain expertise to provide actionable outcomes, the outcomes are focused on your business questions.</p>
-                        <p><a href="/contactus/"><button class="btn btn-primary">Create outcomes</button></a> by leveraging your data.</p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="item">
-                <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>How we can help</h1>
-                        <p>
-                            At dataPipeline, we can help your business to gain insight from data.
-                            We have expertise in a large number of data analytics techniques; strong links to industry and academia; and are driven by a goal of bringing data analytics to small and medium businesses.
-                            Our record includes small, medium and large companies in a number of sectors.
-                        </p>
-                        <p><a href="/contactus/"><button class="btn btn-primary">Contact us today</button></a> to chat about your data analytics needs.</p>
-                    </div>
-                </div>
-            </div>
+
+
+
         </div>
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div><!-- /.carousel -->
-
-
-</div>
-
-
-
-  
-  
-
-</div>
+    </div>
