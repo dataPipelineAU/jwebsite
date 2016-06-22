@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<svg width="266" height="319" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <polygon strokeWidth="5" strokecolor="#000000" fill="#FF0000" edge="0" orient="x" sides="5" shape="regularPoly" id="svg_3" cy="73" cx="-5"/>
+  <polygon strokeWidth="5" strokecolor="none" fill="#FF0000" edge="0" orient="x" sides="5" shape="regularPoly" id="svg_4" cy="18" cx="23"/>
+  <polygon strokeWidth="5" strokecolor="none" fill="#FF0000" edge="0" orient="x" sides="5" shape="regularPoly" id="svg_5" cy="7" cx="-46"/>
+  <polygon strokeWidth="5" strokecolor="none" fill="#FF0000" edge="0" orient="x" sides="5" shape="regularPoly" id="svg_6" cy="7" cx="-29"/>
+  <polygon strokeWidth="5" strokecolor="none" fill="#FF0000" edge="0" orient="x" sides="5" shape="regularPoly" id="svg_8" cy="105" cx="-24"/>
+  <polygon transform="rotate(90, 175, 89)" stroke-width="5" stroke="#000000" points="260.32550048828125,89 217.66278076171875,162.89407348632812 132.33724975585938,162.89407348632812 89.67446899414062,89 132.33724975585938,15.105926513671875 217.66278076171875,15.105926513671875 260.32550048828125,89 " strokeWidth="5" strokecolor="#000000" fill="none" edge="85.32552" orient="x" sides="6" shape="regularPoly" id="svg_12" cy="43" cx="169"/>
+  <polygon id="svg_14" transform="rotate(90, 98, 231)" stroke-width="5" stroke="#000000" points="183.32550048828125,231 140.66278076171875,304.8940734863281 55.33726501464844,304.8940734863281 12.674484252929688,231 55.33726501464844,157.10592651367188 140.66278076171875,157.10592651367188 183.32550048828125,231 " strokeWidth="5" strokecolor="#000000" fill="none" edge="85.32552" orient="x" sides="6" shape="regularPoly" cy="43" cx="169"/>
+ </g>
+</svg>

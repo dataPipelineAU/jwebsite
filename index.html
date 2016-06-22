@@ -93,72 +93,34 @@ layout: default
 
 
             </div>
-</div></div>
-    <div id="divB">
+        </div></div>
 
-        <div metal:fill-slot="content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
+<div class="frontblogs">
+    {% for post in site.posts limit: 2 %}
+
+    <div class="blog-summary1 col-sm-6 col-md-6">
+        <div class="panel panel-default">
+            <div class="blogtitle">
+                <h2>
+                    <a class="post-link1" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+            </div>
 
 
-
-                        {% for post in site.posts limit: 1 %}
-
-                        <div class="blog-summary col-md-6 col-md-6">
-
-                            <div class="panel panel-default">
-                                <div class="blogtitle">
-                                    <h2>
-                                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                                    </h2>
-                                </div>
-                                <span class="post-meta">{{ post.d | date: "%b %-d, %Y" }}</span>
-                                <div class="centered2" onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
-                                    <div class="thumbnail" style="width: 100%; ">
-                                        <div id="header_background"  class=" img-responsive" style='background-repeat:no-repeat;    background-position: center; width:100%; min-height: 450px; background-image: url("/images/{{ post`.image }}");' >
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </div>
-                        {% endfor %}
-
+            <span class="post-meta">{{ post.d | date: "%b %-d, %Y" }}</span>
+            <div class="centered3" onclick="location.href='{{ post.url | prepend: site.baseurl }}'">
+                <div class="thumbnail pull-left" style="width: 75%; ">
+                    <div id="header_background"  class=" img-responsive" style='background-repeat:no-repeat;    background-position: center; width:100%; min-height: 450px; background-image: url("/images/{{ post`.image }}");' >
                     </div>
                 </div>
-
             </div>
+
         </div>
-
-
-
-        <body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
-
-        <div class="container">
-            <div class="row">
-                <nav class="col-sm-3" id="myScrollspy">
-                    <ul class="nav nav-pills nav-stacked">
-                        <li><a href="#section1">Section 1</a></li>
-                        ...
-                    </ul>
-                </nav>
-                <div class="col-sm-9">
-                    <div id="section1">
-                        <h1>Section 1</h1>
-                        <p>Try to scroll this page and look at the navigation list while scrolling!</p>
-                    </div>
-                    ...
-                </div>
-            </div>
-        </div>
-
-        </body>
-
-
 
     </div>
+
+    {% endfor %}
+    </div></div>
 
 
 

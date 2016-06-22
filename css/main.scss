@@ -242,6 +242,7 @@ margin-left: 1cm;
 }
 
 
+
 .blogtitle{
   min-height: 52px;
 }
@@ -270,3 +271,84 @@ margin-left: 1cm;
   height:500px;
 }
 
+
+ul.nav-pills {
+  top: 300px;
+  position: fixed;
+}
+div.col-sm-9 div {
+  height: 250px;
+  font-size: 28px;
+}
+#section1 {
+  color: #fff;
+  background-color: #1E88E5;
+}
+#section2 {
+  color: #fff;
+  background-color: #673ab7;
+}
+#section3 {
+  color: #fff;
+  background-color: #ff9800;
+}
+#section41 {
+  color: #fff;
+  background-color: #00bcd4;
+}
+#section42 {
+  color: #fff;
+  background-color: #009688;
+}
+
+@media screen and (max-width: 810px) {
+  #section1, #section2, #section3, #section41, #section42  {
+    margin-left: 150px;
+  }
+}
+
+.scrollpos{
+  float:right;
+  width:60%;
+  height:500px;
+}
+
+.site-header {
+  border-top:10px solid #ffffff;
+
+}
+
+.frontblogs{
+
+
+  height: 400px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+
+}
+
+.centered3 {
+  position: relative;
+  left: 45px;
+  text-align:center;
+  display:table;
+  width:500px;
+  height: 350px;
+}
+
+.blog-summary1{
+  width: 500px;
+
+
+}
+
+.post-link1{
+  position: relative;
+  left: 70px;
+}
+
+.site-nav{
+  padding-top: 50px;
+
+}
